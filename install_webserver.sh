@@ -21,7 +21,7 @@ sudo sed -i -e 's/Listen 80/Listen 127.0.0.1:80/g' /opt/lampp/etc/httpd.conf
 sudo mkdir -p /opt/lampp/htdocs/www
 sudo chown -R $user:$user /opt/lampp/htdocs/www
 
-// add shortcut to thundar
+// add shortcut in thundar
 echo 'file:///opt/lampp/htdocs/www' >> /home/$user/.config/gtk-3.0/bookmarks
 
 // create aliases in .bashrc
