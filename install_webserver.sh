@@ -4,7 +4,7 @@ user=""
 
 // install webserver
 cd /home/$user/Downloads
-wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.0.30/xampp-linux-x64-8.0.30-0-installer.run
+wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.12/xampp-linux-x64-8.2.12-0-installer.run
 chmod +x xampp-linux-*-installer.run
 sudo ./xampp-linux-*-installer.run --mode text
 
